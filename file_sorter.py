@@ -5,7 +5,7 @@ def file_sorter():
     txt_counter, pdf_counter, exe_counter, not_moved = 0, 0, 0, 0
 
     # ADD HERE PATH TO CATALOG YOU WANT TO SORT
-    files_to_sort = "C:\\Users\\adamm\\Desktop\\TEST\\all"
+    files_to_sort = "C:\\Users\\YOURNAME\\Desktop\\TEST\\all"
     files_list = os.listdir(files_to_sort)
 
     for file in files_list:
@@ -13,9 +13,9 @@ def file_sorter():
         source = files_to_sort+str(file)
 
         # ADD HERE PATH TO CATALOGS YOU WANT TO MOVE YOUR SORTED FILES
-        txt_destination = "C:\\Users\\adamm\\Desktop\\TEST\\txt"
-        pdf_destination = "C:\\Users\\adamm\\Desktop\\TEST\\pdf"
-        exe_destination = "C:\\Users\\adamm\\Desktop\\TEST\\exe"
+        txt_destination = "C:\\Users\\YOURNAME\\Desktop\\TEST\\txt"
+        pdf_destination = "C:\\Users\\YOURNAME\\Desktop\\TEST\\pdf"
+        exe_destination = "C:\\Users\\YOURNAME\\Desktop\\TEST\\exe"
         # ADD MORE EXTENSIONS HERE
 
 
