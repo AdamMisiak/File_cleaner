@@ -4,8 +4,9 @@ from collections import Counter
 
 def file_sorter():
 
-    # CHANGE THE PATH YOU WANT TO SORT AND WHERE YOU WANT TO SAVE FOLDERS
+    # CHANGE THE FOLDER PATH YOU WANT THE FILES TO BE SORTED
     dir_to_sort = "C:\\Users\\USERNAME\\Desktop\\TEST\\all"
+    # CHANGE THE FOLDER PATH YOU WANT THE SORTED FOLDERS TO BE SAVED
     dir_to_save = "C:\\Users\\USERNAME\\Desktop\\TEST"
     files_list = os.listdir(dir_to_sort)
     extension_list = []
