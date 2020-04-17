@@ -29,19 +29,14 @@ def file_sorter():
     counted_extensions_dict = Counter(extension_list)
     counted_extensions_dict_values = list(counted_extensions_dict.values())
     counted_extensions_dict_keys = list(counted_extensions_dict.keys())
-    len_of_dict = len(counted_extensions_dict)
 
     # PRINTING OUTPUTS
     print(f'Cleaning {dir_to_sort} done:')
     for index, element in enumerate(counted_extensions_dict):
-        print(f'{counted_extensions_dict_values[index]} {counted_extensions_dict_keys[index]} extensions sorted')
+        print(f'{counted_extensions_dict_values[index]} .{counted_extensions_dict_keys[index]} files sorted')
     if counted_extensions_dict == {}:
         print('No files to sort')
     else:
         print(f'All folders created in {main_dir}')
-
-
-
-
 
 file_sorter()
